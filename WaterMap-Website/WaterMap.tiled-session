@@ -1,0 +1,15 @@
+{
+    "fileStates": {
+        "tiled.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 212,
+                "y": 598.6666666666665
+            }
+        },
+        "tiled.tmx#tiles": {
+            "scaleInDock": 1
+        }
+    }
+}
