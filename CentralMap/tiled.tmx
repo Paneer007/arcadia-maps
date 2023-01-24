@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="1">
+ <editorsettings>
+  <export target="CentralMap.json" format="json"/>
+ </editorsettings>
  <tileset firstgid="1" name="tiles" tilewidth="16" tileheight="16" tilecount="702" columns="27">
   <image source="tiles.png" width="432" height="416"/>
+  <tile id="101">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
  </tileset>
- <layer id="1" name="GroundLayer" width="50" height="50">
+ <layer id="1" name="BelowPlayerLayer" width="50" height="50">
   <data>
    <tile gid="1"/>
    <tile gid="2"/>
@@ -2507,7 +2515,7 @@
    <tile gid="684"/>
   </data>
  </layer>
- <layer id="2" name="Collision" width="50" height="50" opacity="0">
+ <layer id="2" name="Collision" width="50" height="50">
   <data>
    <tile/>
    <tile/>
@@ -5011,7 +5019,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="3" name="TopLayer" width="50" height="50">
+ <layer id="3" name="AbovePlayerLayer" width="50" height="50">
   <data>
    <tile/>
    <tile/>
