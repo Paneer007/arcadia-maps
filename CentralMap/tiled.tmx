@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="1">
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="1">
  <editorsettings>
   <export target="CentralMap.json" format="json"/>
  </editorsettings>
@@ -11,8 +11,10 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="703" source="AbovePlayerLayer.tsx"/>
- <layer id="1" name="BelowPlayerLayer" width="50" height="50">
+ <tileset firstgid="703" name="AbovePlayerLayerTiles" tilewidth="16" tileheight="16" tilecount="420" columns="14">
+  <image source="AbovePlayerLayer.png" width="224" height="480"/>
+ </tileset>
+ <layer id="1" name="BelowPlayerLayer" width="50" height="50" visible="0">
   <data>
    <tile gid="1"/>
    <tile gid="2"/>
@@ -2516,7 +2518,7 @@
    <tile gid="684"/>
   </data>
  </layer>
- <layer id="2" name="Collision" width="50" height="50" opacity="0">
+ <layer id="2" name="Collision" width="50" height="50" visible="0" opacity="0">
   <data>
    <tile gid="102"/>
    <tile gid="102"/>
@@ -5020,7 +5022,7 @@
    <tile gid="102"/>
   </data>
  </layer>
- <layer id="3" name="AbovePlayerLayer" width="50" height="50">
+ <layer id="6" name="AbovePlayerLayer" width="50" height="50">
   <data>
    <tile/>
    <tile/>
@@ -5429,10 +5431,10 @@
    <tile/>
    <tile/>
    <tile/>
-   <tile gid="787"/>
+   <tile/>
    <tile gid="788"/>
    <tile gid="789"/>
-   <tile gid="790"/>
+   <tile/>
    <tile/>
    <tile/>
    <tile/>
@@ -5529,10 +5531,10 @@
    <tile/>
    <tile gid="158"/>
    <tile gid="159"/>
-   <tile gid="160"/>
-   <tile gid="161"/>
-   <tile gid="162"/>
-   <tile gid="163"/>
+   <tile gid="815"/>
+   <tile gid="816"/>
+   <tile gid="817"/>
+   <tile gid="818"/>
    <tile gid="164"/>
    <tile gid="165"/>
    <tile/>
@@ -5579,10 +5581,10 @@
    <tile/>
    <tile gid="180"/>
    <tile gid="181"/>
-   <tile gid="182"/>
-   <tile gid="183"/>
-   <tile gid="184"/>
-   <tile gid="185"/>
+   <tile gid="829"/>
+   <tile gid="830"/>
+   <tile gid="831"/>
+   <tile gid="832"/>
    <tile gid="186"/>
    <tile gid="187"/>
    <tile/>
@@ -5995,7 +5997,7 @@
    <tile/>
    <tile/>
    <tile/>
-   <tile/>
+   <tile gid="983"/>
    <tile gid="984"/>
    <tile gid="985"/>
    <tile gid="986"/>
@@ -7092,16 +7094,16 @@
    <tile/>
    <tile/>
    <tile/>
-   <tile gid="915"/>
-   <tile gid="916"/>
+   <tile/>
+   <tile/>
    <tile gid="917"/>
    <tile gid="918"/>
    <tile gid="919"/>
    <tile gid="920"/>
    <tile gid="921"/>
    <tile gid="922"/>
-   <tile gid="923"/>
-   <tile gid="924"/>
+   <tile/>
+   <tile/>
    <tile/>
    <tile/>
    <tile/>
@@ -7145,10 +7147,10 @@
    <tile/>
    <tile/>
    <tile gid="931"/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
+   <tile gid="932"/>
+   <tile gid="933"/>
+   <tile gid="934"/>
+   <tile gid="935"/>
    <tile gid="936"/>
    <tile/>
    <tile/>
