@@ -11,7 +11,7 @@
  <tileset firstgid="421" name="AbovePlayerLayerTiles" tilewidth="16" tileheight="16" tilecount="280" columns="14">
   <image source="AbovePlayerLayerTiles.png" width="224" height="320"/>
  </tileset>
- <layer id="1" name="BelowPlayerLayer" width="40" height="40" visible="0">
+ <layer id="1" name="BelowPlayerLayer" width="40" height="40">
   <data>
    <tile gid="1"/>
    <tile gid="2"/>
@@ -1615,7 +1615,7 @@
    <tile gid="407"/>
   </data>
  </layer>
- <layer id="2" name="Collision" width="40" height="40">
+ <layer id="2" name="Collision" width="40" height="40" opacity="0">
   <data>
    <tile gid="250"/>
    <tile gid="250"/>
@@ -3219,7 +3219,7 @@
    <tile gid="250"/>
   </data>
  </layer>
- <layer id="3" name="AbovePlayerLayer" width="40" height="40" visible="0">
+ <layer id="3" name="AbovePlayerLayer" width="40" height="40">
   <data>
    <tile/>
    <tile/>
