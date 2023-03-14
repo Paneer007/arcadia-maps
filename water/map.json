@@ -114,7 +114,7 @@
         {
          "columns":10,
          "firstgid":1,
-         "image":"tiles.png",
+         "image":"tileset.png",
          "imageheight":128,
          "imagewidth":160,
          "margin":0,

@@ -4,7 +4,7 @@
   <export target="thunder.json" format="json"/>
  </editorsettings>
  <tileset firstgid="1" name="tiles" tilewidth="16" tileheight="16" tilecount="255" columns="17">
-  <image source="tiles.png" width="272" height="240"/>
+  <image source="tileset.png" width="272" height="240"/>
   <tile id="0">
    <properties>
     <property name="collides" type="bool" value="true"/>
