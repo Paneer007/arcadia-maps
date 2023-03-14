@@ -8,7 +8,7 @@
    </properties>
   </tile>
  </tileset>
- <layer id="1" name="BelowPlayerLayer" width="40" height="40">
+ <layer id="1" name="BELOW_PLAYER_LAYER" width="40" height="40">
   <data>
    <tile gid="1"/>
    <tile gid="1"/>
@@ -1612,7 +1612,7 @@
    <tile gid="1"/>
   </data>
  </layer>
- <layer id="2" name="Collision" width="40" height="40" opacity="0">
+ <layer id="2" name="OBJECT_LAYER" width="40" height="40" opacity="0">
   <data>
    <tile gid="68"/>
    <tile gid="68"/>
