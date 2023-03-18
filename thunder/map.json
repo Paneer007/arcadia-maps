@@ -96,7 +96,7 @@
             29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 0, 0, 0, 0, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29],
          "height":40,
          "id":2,
-         "name":"OBJECT_LAYER",
+         "name":"OBJECTS_LAYER",
          "opacity":0,
          "type":"tilelayer",
          "visible":true,
@@ -165,7 +165,7 @@
         {
          "columns":17,
          "firstgid":1,
-         "image":"tileset.png",
+         "image":"tileset.webp",
          "imageheight":240,
          "imagewidth":272,
          "margin":0,
@@ -2480,7 +2480,7 @@
         {
          "columns":4,
          "firstgid":256,
-         "image":"overlay.png",
+         "image":"overlay.webp",
          "imageheight":64,
          "imagewidth":64,
          "margin":0,

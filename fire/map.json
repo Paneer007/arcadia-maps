@@ -96,7 +96,7 @@
             25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25],
          "height":40,
          "id":2,
-         "name":"OBJECT_LAYER",
+         "name":"OBJECTS_LAYER",
          "opacity":0,
          "type":"tilelayer",
          "visible":true,
@@ -165,7 +165,7 @@
         {
          "columns":11,
          "firstgid":1,
-         "image":"tileset.png",
+         "image":"tileset.webp",
          "imageheight":144,
          "imagewidth":176,
          "margin":0,
@@ -1078,7 +1078,7 @@
         {
          "columns":4,
          "firstgid":100,
-         "image":"overlay.png",
+         "image":"overlay.webp",
          "imageheight":64,
          "imagewidth":64,
          "margin":0,
